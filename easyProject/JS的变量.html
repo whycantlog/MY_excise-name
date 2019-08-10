@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>JS的声明引入</title>
+		<!--声明JS代码域-->
+		<script type="text/javascript">
+			// alert("这是我的第一个js")
+			/* js的变量学习 */
+			// var q = 123;
+			// var a="js";
+			// var a2 = 'k';
+			// var a3 = true;
+			// var a4 = new Date();//对象
+			var b =456;
+			var b1=1.23;
+			alert(typeof(b));
+		</script>
+		<!-- 引入外部声明好的js文件 -->
+		<script src="js/my.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<h3>JS的声明和引入</h3>
+		<hr/>
+	</body>
+</html>
+<!-- 
+	JS的声明学习
+		1.在head标签使用script标签进行js代码域的声明
+			<script type="text/javascript">
+				alert("这是我的第一个js")
+			</script>	
+			作用于当前网页
+		2.外部链入JS
+			<script src="js/my.js" type="text/javascript" charset="utf-8"></script>
+	JS的变量声明学习：
+		1.JS中的所有变量声明只有var关键字
+	JS中的数据类型：
+		数据类型判断关键字:typeof
+		数据类型
+			number
+			string
+			boolean
+			object
+			null
+			Undefined
+ -->
